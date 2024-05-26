@@ -12,7 +12,7 @@ public class App {
         double costoMantenimientoAuto = auto.calcularCostoMantenimiento(0.05, 1000);
         System.out.println("Costo de mantenimiento del Auto: $" + costoMantenimientoAuto);
 
-        System.out.println("\nInfo del Camion: ");
+        System.out.println("Info del Camion: ");
         camion.mostrarInfo();
         System.out.println("---------------------------");
         System.out.println("Realizando mantenimiento del Camion: ");
