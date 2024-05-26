@@ -21,6 +21,7 @@ public class Auto extends VehiculoPasajeros {
         System.out.println("Tipo de combsutible: " + tipoCombustible);
     }
 
+    @Override
     public void realizarMantenimiento() {
         super.realizarMantenimiento();
         System.out.println("Revisión de inyectores");
